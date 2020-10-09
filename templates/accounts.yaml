@@ -69,13 +69,6 @@ Resources:
       Groups:
         - !Ref AWSIAMAllUsersGroup
         - !Ref AWSIAMDeveloperUsersGroup
-  AWSIAMBrianWhiteUser:
-    Type: 'AWS::IAM::User'
-    Properties:
-      UserName: brian.white@sagebase.org
-      Groups:
-        - !Ref AWSIAMAllUsersGroup
-        - !Ref AWSIAMDeveloperUsersGroup
   AWSIAMMichaelMasonUser:
     Type: 'AWS::IAM::User'
     Properties:
