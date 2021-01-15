@@ -83,13 +83,6 @@ Resources:
       Groups:
         - !Ref AWSIAMAllUsersGroup
         - !Ref AWSIAMDeveloperUsersGroup
-  AWSIAMMattWallUser:
-    Type: 'AWS::IAM::User'
-    Properties:
-      UserName: matthew.wall@sagebase.org
-      Groups:
-        - !Ref AWSIAMAllUsersGroup
-        - !Ref AWSIAMDeveloperUsersGroup
   AWSIAMAndrewLambUser:
     Type: 'AWS::IAM::User'
     Properties:
